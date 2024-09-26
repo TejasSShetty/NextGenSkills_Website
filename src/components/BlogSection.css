@@ -1,0 +1,26 @@
+/* src/components/BlogSection.css */
+.blog-section {
+    padding: 50px 0;
+    background-color: #f8f9fa; /* Light background color for this section */
+    text-align: center;
+  }
+  /* src/components/EducationBlog.css */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+.blog-header {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.card-title {
+  font-family: 'Merriweather', serif;
+  font-weight: 700; /* Bold for titles */
+}
+
+.card-description {
+  font-family: 'Merriweather', serif;
+  font-weight: 400; /* Regular for descriptions */
+  color: #555;
+}
+

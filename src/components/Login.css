@@ -1,0 +1,19 @@
+/* src/components/Login.css */
+.login-container {
+  background-image: url('https://images.pexels.com/photos/11540667/pexels-photo-11540667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  width: 400px;
+  padding: 20px;
+  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  opacity: 0.95;
+}

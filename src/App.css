@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
+}
+/* src/App.css */
+section {
+  padding: 100px 0; /* Add space between sections */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#events {
+  margin-top: 50px; /* Additional margin for events section */
+  padding: 20px 0; /* Padding for the events section */
+  background-color: #f5f5f5; /* Light gray background for better visibility */
+}
+/* src/components/Navbar.css */
+.AppBar {
+  position: fixed;  /* This keeps it fixed at the top */
+  top: 0;           /* Aligns to the top of the viewport */
+  width: 100%;      /* Full width */
+  z-index: 1000;    /* Ensures it's on top of other content */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* You may want to add some padding to the top of your main content to avoid overlap */
+body {
+  padding-top: 64px; /* Adjust according to your AppBar height */
+}
+
+h4 {
+  margin-bottom: 30px; /* Space above the section title */
+}
+/* src/components/HeroSection.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.hero {
+  background: url('https://example.com/your-background-image.jpg') no-repeat center center/cover;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.hero-text {
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero a {
+  text-decoration: none;
 }
